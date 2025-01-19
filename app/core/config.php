@@ -10,3 +10,8 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 } else{
     define('ROOT', "https://website.com/MVC/public");
 }
+
+define('APP_NAME', "MVC Template");
+
+# true means show errors
+define('DEBUG', true);
